@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h1, h2 {
+    color: #007bff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Personal Data Styles */
+p {
+    margin: 5px 0;
+}
+
+p strong {
+    color: #007bff;
+}
+
+/* Experience, Education, and Courses Styles */
+.experience, .education, .courses {
+    margin-bottom: 20px;
+}
+
+.experience h3, .education h3, .courses h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #343a40;
+}
+
+.experience p, .education p, .courses p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+/* Profile Photo Styles */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
